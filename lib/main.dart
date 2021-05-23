@@ -23,30 +23,31 @@ class _MyAppState extends State<MyApp> {
   // final is run-time constant, cannot change after run-time
   final _questions = const [
     {
-      'questionText': 'Who\'s your favorite director?',
+      'questionText': 'Who\'s your favorite director among the below?',
       'answers': [
-        {'text': 'Tharun Bhascker', 'score': 10},
         {'text': 'Rajamouli', 'score': 8},
-        {'text': 'Vivek Athreya', 'score': 6},
-        {'text': 'Anil Ravipudi', 'score': 2}
+        {'text': 'Tharun Bhascker', 'score': 10},
+        {'text': 'Anil Ravipudi', 'score': 2},
+        {'text': 'Vivek Athreya', 'score': 6}
       ],
     },
     {
-      'questionText': 'What\'s your favorite mobile game?',
+      'questionText': 'Which mobile game would you pick to play?',
       'answers': [
-        {'text': 'PUBG', 'score': 10},
         {'text': 'COD', 'score': 8},
-        {'text': 'AmongUs', 'score': 6},
-        {'text': 'Free Fire', 'score': 2}
+        {'text': 'PUBG', 'score': 10},
+        {'text': 'Free Fire', 'score': 2},
+        {'text': 'AmongUs', 'score': 6}
+        
       ],
     },
     {
-      'questionText': 'What\'s your favorite food?',
+      'questionText': 'What\'s your favorite food (or type) among the below?',
       'answers': [
-        {'text': '🍕', 'score': 10},
-        {'text': '🍔', 'score': 8},
-        {'text': '🍱', 'score': 6},
-        {'text': '🥐', 'score': 2}
+        {'text': '🌶', 'score': 10},
+        {'text': '🍗', 'score': 8},
+        {'text': '🍨', 'score': 6},
+        {'text': '🌭', 'score': 2}
       ],
     },
   ];
