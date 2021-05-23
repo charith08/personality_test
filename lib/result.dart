@@ -16,8 +16,10 @@ class Result extends StatelessWidget {
     } else if (resultScore == 6) {
       //min
       resultText = 'Poyi F2 chusko po 🤮 Free fire UI em baguntadhi asalu?';
-    } else if (resultScore == 24) {
+    } else if (resultScore == 26 || resultScore == 24) {
       //8*3
+      resultText = 'DCP Padmanabha Simha 🔥🔥🔥🔥';
+    } else if (resultScore == 22) {
       resultText = 'I like that, oopu undhiii ooopestaav 🔥';
     } else if (resultScore == 20) {
       resultText = 'Motham istam koncham kastam';
