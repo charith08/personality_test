@@ -5,4 +5,5 @@ An app which predicts your personality based on a quiz.
 This project is built using [Flutter](https://flutter.dev/)
 
 ## How to run this project
-flutter run lib/main.dart
+1. `flutter run lib/main.dart`
+2. build the project and transfer the app to android
